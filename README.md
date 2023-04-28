@@ -8,16 +8,12 @@ The port of the JMX Prometheus agent. For example, if you set PROMETHEUS_PORT=80
 docker env:
 ```
  -e PROMETHEUS_PORT=8080
- 
  -p 8080:8080 
  ```
 prometheus.yaml:
 ```
 - job_name: 'hazelcast'
-
 scrape_interval: 10s
-
 static_configs:
-
 - targets: ['IP_ADRESS:8080']
 ``` 
