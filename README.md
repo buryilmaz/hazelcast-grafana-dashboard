@@ -13,7 +13,7 @@ docker env:
 prometheus.yaml:
 ```
 - job_name: 'hazelcast'
-scrape_interval: 10s
-static_configs:
-- targets: ['IP_ADRESS:8080']
+  scrape_interval: 10s
+  static_configs:
+  - targets: ['IP_ADRESS:8080']
 ``` 
