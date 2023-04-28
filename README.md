@@ -8,6 +8,7 @@ The port of the JMX Prometheus agent. For example, if you set PROMETHEUS_PORT=80
 docker env:
 
  -e PROMETHEUS_PORT=8080
+ 
  -p 8080:8080 
  
 
